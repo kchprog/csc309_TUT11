@@ -51,7 +51,7 @@ export const AuthProvider = ({ children }) => {
             }
         }
         fetchUser()
-    }, [user])
+    }, [])
 
     /*
      * Logout the currently authenticated user.
